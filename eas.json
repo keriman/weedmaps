@@ -15,7 +15,14 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "android": {
+        "credentialsSource": "local",
+        "keystorePath": "weedmaps-keystore.jks",
+        "keystorePassword": "tucontraseña",
+        "keyAlias": "upload",
+        "keyPassword": "tucontraseña"
+      }
     }
   },
   "submit": {
