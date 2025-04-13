@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Dispensarios Médicos",
-    "slug": "dispensarios-medicos",
+    "name": "Weed Maps",
+    "slug": "weedmaps",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/mercadoWeed.png",
@@ -16,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.dispensariosmedicos",
+      "bundleIdentifier": "mx.com.ksolutions.weedmaps",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "La aplicación necesita acceso a tu ubicación para mostrar dispensarios cercanos.",
         "ITSAppUsesNonExemptEncryption": false
@@ -27,7 +27,7 @@
         "foregroundImage": "./assets/mercadoWeed.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.yourcompany.dispensariosmedicos",
+      "package": "mx.com.ksolutions.weedmaps",
       "permissions": [
         "ACCESS_FINE_LOCATION",
         "ACCESS_COARSE_LOCATION",
