@@ -1,6 +1,6 @@
 {
   "cli": {
-    "version": ">= 15.0.12",
+    "version": ">= 16.0.0",
     "appVersionSource": "remote"
   },
   "build": {
@@ -15,14 +15,7 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true,
-      "android": {
-        "credentialsSource": "local",
-        "keystorePath": "weedmaps-keystore.jks",
-        "keystorePassword": "tucontraseña",
-        "keyAlias": "upload",
-        "keyPassword": "tucontraseña"
-      }
+      "autoIncrement": true
     }
   },
   "submit": {
