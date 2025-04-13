@@ -1,28 +1,47 @@
 {
   "expo": {
-    "name": "MercadoWeed",
-    "slug": "MercadoWeed",
+    "name": "Dispensarios Médicos",
+    "slug": "dispensarios-medicos",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mercadoWeed.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/mercadoWeed.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.dispensariosmedicos",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "La aplicación necesita acceso a tu ubicación para mostrar dispensarios cercanos."
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mercadoWeed.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yourcompany.dispensariosmedicos",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/mercadoWeed.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permitir a Dispensarios Médicos acceder a tu ubicación."
+        }
+      ]
+    ]
   }
 }
